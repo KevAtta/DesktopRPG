@@ -1,4 +1,6 @@
-# Kevin Attarantato e Giorgia Roselli
+# Gioco di ruolo per sistemi desktop
+
+Kevin Attarantato e Giorgia Roselli
 
 Lo scopo del progetto è quello di realizzare un’applicazione desktop, su singola 
 schermata, per un gioco chiamato “Monster Hunter”: un classico gioco di ruolo, che 
