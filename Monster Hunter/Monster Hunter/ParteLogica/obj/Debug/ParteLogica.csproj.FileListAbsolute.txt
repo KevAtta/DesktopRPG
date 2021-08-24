@@ -1,0 +1,6 @@
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\bin\Debug\ParteLogica.dll
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\bin\Debug\ParteLogica.pdb
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Debug\ParteLogica.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Debug\ParteLogica.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Debug\ParteLogica.dll
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Debug\ParteLogica.pdb

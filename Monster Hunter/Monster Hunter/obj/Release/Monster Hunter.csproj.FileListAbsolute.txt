@@ -1,0 +1,28 @@
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.exe.config
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.exe
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.pdb
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\bin\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\bin\Release\ParteLogica.pdb
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.MappaDiGioco.resources
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.Properties.Resources.resources
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.GenerateResource.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.CopyComplete
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.exe
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.pdb
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.MonsterHunter.resources
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.exe.config
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.exe
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\bin\Release\Monster Hunter.pdb
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\bin\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\bin\Release\ParteLogica.pdb
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.MappaDiGioco.resources
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.MonsterHunter.resources
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster_Hunter.Properties.Resources.resources
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.GenerateResource.cache
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.csproj.CopyComplete
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.exe
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\obj\Release\Monster Hunter.pdb

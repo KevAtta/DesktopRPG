@@ -1,0 +1,12 @@
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\bin\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\bin\Release\ParteLogica.pdb
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.pdb
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\bin\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\bin\Release\ParteLogica.pdb
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.dll
+C:\Users\kevin\Desktop\Kevin\Università\POIS Saverio\FIle gitHub\Gioco-di-ruolo-per-desktop-\Monster Hunter\Monster Hunter\ParteLogica\obj\Release\ParteLogica.pdb
