@@ -34,8 +34,8 @@ namespace ParteLogica
         {
             personaggioBase                   = new Personaggio(20, 0, 0, 10, 10);
             personaggioBase.PosizioneAttuale  = MondoDiGioco.LuogoPerID(MondoDiGioco.LUOGO_ID_CITTA);
-            Inventario spadaArrugginita       = new Inventario(MondoDiGioco.OggettoPerID(MondoDiGioco.OGGETTO_SPADA_ARRUGGINITA), 1);
-            Inventario pozioni                = new Inventario(MondoDiGioco.OggettoPerID(MondoDiGioco.OGGETTO_POZIONE), 5);
+            Inventario spadaArrugginita       = new Inventario(MondoDiGioco.OggettoPerID(MondoDiGioco.OGGETTO_ID_SPADA_ARRUGGINITA), 1);
+            Inventario pozioni                = new Inventario(MondoDiGioco.OggettoPerID(MondoDiGioco.OGGETTO_ID_POZIONE), 5);
             personaggioBase.Inventario.Add(spadaArrugginita);
             personaggioBase.Inventario.Add(pozioni);
 

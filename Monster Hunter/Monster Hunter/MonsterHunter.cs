@@ -163,7 +163,7 @@ namespace Monster_Hunter
                 lblLivello.Text    = giocatore.Livello.ToString();
 
                 // se sconfiggo il drago finale 
-                if ((mostroAttuale.ID == 1))
+                if ((mostroAttuale.ID == MondoDiGioco.MOSTRO_ID_DRAGO_FINALE))
                 {
                     // mostro questo messaggio pop-up
                     MessageBox.Show("Questo è l'ultimo mostro da battere per completare la seconda, ed ultima, missione del gioco. \nMa non ti preoccupare puoi continuare comunque a giocare" +
@@ -176,8 +176,6 @@ namespace Monster_Hunter
                 AggiornaListaArmiInUI();
                 // aggiorno la lista delle pozioni nell'interfaccia grafica (aggiungo eventuali pozioni nel comboBox [menu a tendina])
                 AggiornaListaPozioniInUI();
-
-                rtbMessaggi.Text += Environment.NewLine;
                 // "sposto" il giocatore nello stesso luogo cosi da far ricomparire un'altro mostro
                 MuovitiVerso(giocatore.PosizioneAttuale);
             }
@@ -282,7 +280,7 @@ namespace Monster_Hunter
             {
                 // mostro il messaggio all'utente
                 rtbMessaggi.Text += "Devi avere " + nuovoLuogo.OggettoRichiestoPerEntrare.Nome + " per entrare in questo luogo." + Environment.NewLine;
-                // esco
+                // esco dal metodo
                 return;
             }
             // assegno alla posizione attuale del giocatore il luogo passatogli come parametro, quindi per esempio nel caso 
