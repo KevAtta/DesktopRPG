@@ -14,7 +14,7 @@ namespace ParteLogica
         public static int NumeriCompresi(int valoreMinimo, int valoreMassimo)
         {
             // il metodo ritornerà un valore compreso fra i due valori
-            return generatore.Next(valoreMinimo, valoreMassimo);
+            return generatore.Next(valoreMinimo, valoreMassimo + 1);
         }
     }
 }
