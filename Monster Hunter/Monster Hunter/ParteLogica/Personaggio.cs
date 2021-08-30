@@ -165,7 +165,8 @@ namespace ParteLogica
                 missioni.AppendChild(missioneGiocatore);
             }
 
-            // il metodo ritornerà tutto il documento xml come stringa (questo perchè mi servirà poi per essere caricato)
+            // il metodo, tramite la proprietà InnerXml di XmlDocument, ritornerà tutto il documento
+            // xml come stringa (questo perchè mi servirà poi per essere caricato)
             return datiGiocatore.InnerXml;
         }
     
