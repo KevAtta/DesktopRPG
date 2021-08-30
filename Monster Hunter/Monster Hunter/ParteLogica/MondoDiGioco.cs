@@ -101,7 +101,7 @@ namespace ParteLogica
             Oggetto medagliaValore     = new Oggetto(OGGETTO_ID_MEDAGLIA_VALORE, "Medaglia al valore", "Medaglie al valore");
             PozioneCura baccaGialla    = new PozioneCura(OGGETTO_ID_BACCAGIALLA, "Baccagialla", "Bacchegialle", 5);
             PozioneCura pozione        = new PozioneCura(OGGETTO_ID_POZIONE, "Pozione", "Pozioni", 7);
-            PozioneCura iperPozione    = new PozioneCura(OGGETTO_ID_IPERPOZIONE, "Iperpozione", "Iperpozioni", 40);
+            PozioneCura iperpozione    = new PozioneCura(OGGETTO_ID_IPERPOZIONE, "Iperpozione", "Iperpozioni", 40);
 
             // aggiungo gli oggetti nella lista degli oggetti
             Oggetti.Add(spadaArrugginita);
@@ -121,7 +121,7 @@ namespace ParteLogica
             Oggetti.Add(medagliaValore);
             Oggetti.Add(baccaGialla);
             Oggetti.Add(pozione);
-            Oggetti.Add(iperPozione);
+            Oggetti.Add(iperpozione);
         }
 
         // questo metodo serve per andare a popolare il mondo dei gioco dei mostri, istanziandoli, quindi, e inserendoli poi nella lista
