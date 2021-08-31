@@ -648,7 +648,7 @@ namespace Monster_Hunter
         }
 
         /* ATTENZIONE IL METODO SOTTO RIPORTATO E' STATO MESSO SOTTO COMMENTO A CAUSA DI UN ERRORE
-           INSOLITO CHE OCCORRE QUANDO SI UTILIZZA IL METODO SCROLL TO CARET*/
+           INSOLITO CHE OCCORRE QUANDO SI UTILIZZA IL METODO SCROLL TO CARET */
 
         // questo metodo, riferito al richTextBox dei messaggi di gioco, si attiverà ogni volta
         // che il valore della proprietà Text cambia, quindi quando viene modificata o dall'utente
