@@ -290,8 +290,7 @@ namespace ParteLogica
                 // se l'ID della missione che ha il giocatore coincide con quella passata come parametro
                 if(missioneGiocatore.Dettagli.ID == missione.ID)
                 {
-                    // il metodo va a settare la variabile è completata a true (quindi il giocatore ha
-                    // completato la missione e andiamo a cambiare lo stato della variabile interessata) ed esce
+                    // il metodo restituisce il valore della variabile Ecompletata in quel momento
                     return missioneGiocatore.ECompletata;
                 }
             }
