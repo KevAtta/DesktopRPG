@@ -257,7 +257,7 @@ namespace Monster_Hunter
                 MuovitiVerso(MondoDiGioco.LuogoPerID(MondoDiGioco.LUOGO_ID_CITTA));
             }
 
-            // aggiorno la 'label' inerente alla vita del giocatore dopo l'accatto del mostro
+            // aggiorno la 'label' inerente alla vita del giocatore dopo l'attacco del mostro
             lblPuntiVita.Text = giocatore.PuntiVitaAttuali.ToString();
             // aggiorno l'inventario nell'interfaccia grafica (aggiungo le righe necessarie nel dataGridView)
             AggiornaListaInventarioInUI();
@@ -686,11 +686,6 @@ namespace Monster_Hunter
             {
                 MessageBox.Show("Errore " + ex + " Ops qualcosa è andato storto, probabilmente c'è stato un problema con la directory :(");
             }
-        }
-
-        private void rtbMessaggi_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
