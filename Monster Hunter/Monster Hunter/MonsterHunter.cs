@@ -647,6 +647,9 @@ namespace Monster_Hunter
             mappa.ShowDialog(this);
         }
 
+        /* ATTENZIONE IL METODO SOTTO RIPORTATO E' STATO MESSO SOTTO COMMENTO A CAUSA DI UN ERRORE
+           INSOLITO CHE OCCORRE QUANDO SI UTILIZZA IL METODO SCROLL TO CARET*/
+
         // questo metodo, riferito al richTextBox dei messaggi di gioco, si attiverà ogni volta
         // che il valore della proprietà Text cambia, quindi quando viene modificata o dall'utente
         // o a livello di codice 
@@ -654,9 +657,9 @@ namespace Monster_Hunter
         {
             // selection start imposta il punto di inizio del testo selezionato nella casella di testo
             // ed ottiene la lunghezza del testo
-            rtbMessaggi.SelectionStart = rtbMessaggi.Text.Length;
+            //rtbMessaggi.SelectionStart = rtbMessaggi.Text.Length;
             // scorre il contenuto fino alla posizione corrente del punti di inserimento
-            rtbMessaggi.ScrollToCaret();
+            //rtbMessaggi.ScrollToCaret();
         }
 
         // metodo per chiudere il gioco
