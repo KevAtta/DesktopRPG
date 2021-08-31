@@ -331,7 +331,7 @@ namespace Monster_Hunter
                             // segnalo al giocatore che ha completato la missione
                             rtbMessaggi.Text += Environment.NewLine + "Hai completato la missione " + nuovoLuogo.MissioneDisponibileQui.Nome + Environment.NewLine;
                             // rimuovo dall'inventario gli oggetti che servivano per completare la missione
-                            giocatore.RimuoviOgettoCompletamentoMissione(nuovoLuogo.MissioneDisponibileQui);
+                            giocatore.RimuoviOggettoCompletamentoMissione(nuovoLuogo.MissioneDisponibileQui);
                             // segnalo al giocatore gli oggetti che andrà a ricevere
                             rtbMessaggi.Text += "Ricevi: " + Environment.NewLine;
                             rtbMessaggi.Text += nuovoLuogo.MissioneDisponibileQui.RicompensaPuntiEsperienza.ToString() + " punti esperienza" + Environment.NewLine;

@@ -337,7 +337,7 @@ namespace ParteLogica
         }
 
         // metodo per rimuovere gli oggetti dall'inventario del giocatore una volta che si è completata la missione
-        public void RimuoviOgettoCompletamentoMissione(Missione missione)
+        public void RimuoviOggettoCompletamentoMissione(Missione missione)
         {
             // per ogni oggetto per il completamento della missione
             foreach(OggettoCompletamentoMissione oggettoCompletamentoMissione in missione.OggettiCompletamentoMissione)
