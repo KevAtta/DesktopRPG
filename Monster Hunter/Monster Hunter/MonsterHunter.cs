@@ -109,6 +109,9 @@ namespace Monster_Hunter
                 giocatore.Soldi  += mostroAttuale.RicompensaSoldi;
                 rtbMessaggi.Text += "Ricevi " + mostroAttuale.RicompensaSoldi.ToString() + " guil" + Environment.NewLine;
 
+                // pulisco i precedenti messaggi
+                rtbMessaggi.Clear();
+
                 // creo una lista di oggetti di tipo inventario che conterrà gli oggetti ottenuti sconfiggendo i vari mostri
                 List<Inventario> oggettiOttenuti = new List<Inventario>();
                 // per ogni oggetto presente nella lista degli OggettiOttenibili del mostro attuale
@@ -352,6 +355,9 @@ namespace Monster_Hunter
                 // altrimenti il giocatore non aveva ancora quella missione
                 else
                 {
+                    // elimino le precedenti scritte
+                    rtbMessaggi.Clear();
+
                     // segnalo al giocatore che sta prendendo una nuova missione 
                     rtbMessaggi.Text += "Ricevi la missione " + nuovoLuogo.MissioneDisponibileQui.Nome + Environment.NewLine;
                     rtbMessaggi.Text += nuovoLuogo.MissioneDisponibileQui.Descrizione + Environment.NewLine;
@@ -647,21 +653,6 @@ namespace Monster_Hunter
             mappa.ShowDialog(this);
         }
 
-        /* ATTENZIONE IL METODO SOTTO RIPORTATO E' STATO MESSO SOTTO COMMENTO A CAUSA DI UN ERRORE
-           INSOLITO CHE OCCORRE QUANDO SI UTILIZZA IL METODO SCROLL TO CARET */
-
-        // questo metodo, riferito al richTextBox dei messaggi di gioco, si attiverà ogni volta
-        // che il valore della proprietà Text cambia, quindi quando viene modificata o dall'utente
-        // o a livello di codice 
-        private void rtbMessaggi_TextChanged(object sender, EventArgs e)
-        {
-            // selection start imposta il punto di inizio del testo selezionato nella casella di testo
-            // ed ottiene la lunghezza del testo
-            //rtbMessaggi.SelectionStart = rtbMessaggi.Text.Length;
-            // scorre il contenuto fino alla posizione corrente del punti di inserimento
-            //rtbMessaggi.ScrollToCaret();
-        }
-
         // metodo per chiudere il gioco
         private void btnChiudiGioco_Click(object sender, EventArgs e)
         {
@@ -695,6 +686,11 @@ namespace Monster_Hunter
             {
                 MessageBox.Show("Errore " + ex + " Ops qualcosa è andato storto, probabilmente c'è stato un problema con la directory :(");
             }
+        }
+
+        private void rtbMessaggi_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

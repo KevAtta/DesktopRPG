@@ -47,7 +47,6 @@ namespace Monster_Hunter
             this.btnSud = new System.Windows.Forms.Button();
             this.btnOvest = new System.Windows.Forms.Button();
             this.rtbLuogo = new System.Windows.Forms.RichTextBox();
-            this.rtbMessaggi = new System.Windows.Forms.RichTextBox();
             this.dgvInventario = new System.Windows.Forms.DataGridView();
             this.dgvMissioni = new System.Windows.Forms.DataGridView();
             this.btnMappa = new System.Windows.Forms.Button();
@@ -57,6 +56,7 @@ namespace Monster_Hunter
             this.btnSalva = new System.Windows.Forms.Button();
             this.btnCancellaSalvataggio = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.rtbMessaggi = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMissioni)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDestra)).BeginInit();
@@ -228,16 +228,6 @@ namespace Monster_Hunter
             this.rtbLuogo.TabIndex = 17;
             this.rtbLuogo.Text = "";
             // 
-            // rtbMessaggi
-            // 
-            this.rtbMessaggi.Location = new System.Drawing.Point(347, 130);
-            this.rtbMessaggi.Name = "rtbMessaggi";
-            this.rtbMessaggi.ReadOnly = true;
-            this.rtbMessaggi.Size = new System.Drawing.Size(360, 286);
-            this.rtbMessaggi.TabIndex = 18;
-            this.rtbMessaggi.Text = "";
-            this.rtbMessaggi.TextChanged += new System.EventHandler(this.rtbMessaggi_TextChanged);
-            // 
             // dgvInventario
             // 
             this.dgvInventario.AllowUserToAddRows = false;
@@ -335,12 +325,22 @@ namespace Monster_Hunter
             this.label6.TabIndex = 27;
             this.label6.Text = "Eroe:";
             // 
+            // rtbMessaggi
+            // 
+            this.rtbMessaggi.Location = new System.Drawing.Point(348, 129);
+            this.rtbMessaggi.Name = "rtbMessaggi";
+            this.rtbMessaggi.ReadOnly = true;
+            this.rtbMessaggi.Size = new System.Drawing.Size(360, 286);
+            this.rtbMessaggi.TabIndex = 28;
+            this.rtbMessaggi.Text = "";
+            // 
             // MonsterHunter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(921, 651);
+            this.Controls.Add(this.rtbMessaggi);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCancellaSalvataggio);
             this.Controls.Add(this.btnSalva);
@@ -350,7 +350,6 @@ namespace Monster_Hunter
             this.Controls.Add(this.pictureBoxSinistra);
             this.Controls.Add(this.dgvMissioni);
             this.Controls.Add(this.dgvInventario);
-            this.Controls.Add(this.rtbMessaggi);
             this.Controls.Add(this.rtbLuogo);
             this.Controls.Add(this.btnOvest);
             this.Controls.Add(this.btnSud);
@@ -401,7 +400,6 @@ namespace Monster_Hunter
         private System.Windows.Forms.Button btnSud;
         private System.Windows.Forms.Button btnOvest;
         private System.Windows.Forms.RichTextBox rtbLuogo;
-        private System.Windows.Forms.RichTextBox rtbMessaggi;
         private System.Windows.Forms.DataGridView dgvInventario;
         private System.Windows.Forms.DataGridView dgvMissioni;
         private System.Windows.Forms.PictureBox pictureBoxSinistra;
@@ -411,6 +409,7 @@ namespace Monster_Hunter
         private System.Windows.Forms.Button btnSalva;
         private System.Windows.Forms.Button btnCancellaSalvataggio;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RichTextBox rtbMessaggi;
     }
 }
 
