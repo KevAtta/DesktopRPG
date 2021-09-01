@@ -370,8 +370,10 @@ namespace ParteLogica
                     return;
                 }
             }
+            // creo l'oggetto da aggiungere
+            Inventario oggettoAggiunto = new Inventario(oggettoDaAggiungere, 1);
             // se il giocatore non aveva quel tipo di oggetto nell'inventario allora ne aggiungo direttamente uno
-            Inventario.Add(new Inventario(oggettoDaAggiungere, 1));
+            Inventario.Add(oggettoAggiunto);
         }
 
         // metodo per segnalare quando il giocatore completa una missione
